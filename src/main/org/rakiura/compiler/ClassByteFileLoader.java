@@ -1,30 +1,3 @@
-/* $Header: /cvsroot/jfern/jfern/src/main/org/rakiura/compiler/ClassByteFileLoader.java,v 1.1 2006/11/02 02:07:17 marni Exp $
- * $Log: ClassByteFileLoader.java,v $
- * Revision 1.1  2006/11/02 02:07:17  marni
- * Removing dependency on graham-kirby compiler. Integrating the bytecode compiler into the JFern codebase. Modifying the compiler to work with servlet engines. Adjusting the JFern codebase to the change.
- *
- * Revision 1.1  1998/11/06 10:37:03  graham
- * Initial revision
- *
- *
- */
-
-/* Copyright (C) 1998 Graham Kirby
- * 
- * This library is free software; you can redistribute it and/or modify it under the
- * terms of the GNU Library General Public License as published by the Free Software
- * Foundation; either version 2 of the License, or (at your option) any later
- * version.
- * 
- * This library is distributed in the hope that it will be useful, but WITHOUT ANY
- * WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
- * PARTICULAR PURPOSE. See the GNU Library General Public License for more details.
- * 
- * To receive a copy of the GNU Library General Public License, write to the Free
- * Software Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307,
- * USA.
- */
-
 package org.rakiura.compiler;
 
 import java.io.File;

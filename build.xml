@@ -152,6 +152,11 @@
 
 
     <copy file="ChangeLog" todir="${build.classes}" />
+    <copy file="${docs.dir}/COPYING-LESSER" todir="${build.classes}" />
+    <copy file="${docs.dir}/LICENSE" todir="${build.classes}" />
+    <copy file="${docs.dir}/README" todir="${build.classes}" />
+    <copy file="${docs.dir}/THANKS" todir="${build.classes}" />
+    <copy file="${docs.dir}/AUTHORS" todir="${build.classes}" />
     <copy file="${moduleinfo}" tofile="${build.classes}/META-INF/MODULEINFO" />
 
     <mkdir dir="${lib.dir}"/>
